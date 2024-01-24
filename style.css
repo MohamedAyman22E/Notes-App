@@ -78,8 +78,31 @@ h2 {
 }
 .end {
   position: absolute;
-  top: 10%;
+  top: 5%;
   left: 50%;
   transform: translate(-50%);
   font-size: 30px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+@media (max-width: 745px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 622px) {
+  h2 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 745px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 390px) {
+  h2 {
+    font-size: 1.2rem;
+  }
 }
